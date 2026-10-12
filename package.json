@@ -1,0 +1,8 @@
+{
+  "name": "eventos-acesso-profissionais",
+  "version": "0.3.0",
+  "private": true,
+  "type": "module",
+  "scripts": { "test": "node testes/validar-modelo.mjs" },
+  "devDependencies": { "@electric-sql/pglite": "0.5.8" }
+}
