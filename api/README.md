@@ -7,7 +7,7 @@ API Node.js para o primeiro fluxo do produto: login Firebase, perfil profissiona
 1. Use Node.js 20 ou mais recente; nesta pasta, execute `npm install`.
 2. Copie `.env.example` para `.env` e preencha as variáveis. O Node pode carregar o arquivo com `node --env-file=.env src/server.mjs`; no ambiente hospedado, configure as variáveis no próprio serviço.
 3. `DATABASE_URL` deve apontar para a branch **development** do projeto Neon `entrelia`. Para tráfego da API, use a conexão pooled.
-4. O projeto Firebase existente é `entrelia-17696`. Authentication foi iniciado no painel, mas ainda não há método de login habilitado. Configure um provedor de login e use uma conta de serviço via `GOOGLE_APPLICATION_CREDENTIALS` no servidor. O cliente envia o ID token Firebase no cabeçalho `Authorization: Bearer <token>`; o servidor verifica o token e o e-mail confirmado.
+4. O projeto Firebase existente é `entrelia-17696`. E-mail/senha e Google estão habilitados no painel. Use esses provedores no app Web e use uma conta de serviço via `GOOGLE_APPLICATION_CREDENTIALS` no servidor. O cliente envia o ID token Firebase no cabeçalho `Authorization: Bearer <token>`; o servidor verifica o token e o e-mail confirmado.
 5. Configure as três variáveis Cloudinary no servidor. Os presets assinados `entrelia_perfil` e `entrelia_portfolio` já existem; o segredo da API nunca vai para o cliente.
 6. Defina `ALLOWED_ORIGINS` como uma lista de origens web separadas por vírgula e inicie com `npm start` (ou `npm run dev`).
 
