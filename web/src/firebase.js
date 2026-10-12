@@ -1,11 +1,14 @@
 import { initializeApp } from 'firebase/app';
 import { getAuth, GoogleAuthProvider } from 'firebase/auth';
 
+// Firebase Web config identifies this app; private credentials stay on the API.
 const config = {
-  apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
-  authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN,
-  projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID,
-  appId: import.meta.env.VITE_FIREBASE_APP_ID,
+  apiKey: 'AIzaSyDuE__ECvaF3WaOpMBpT6VV3RZoXrxE1VI',
+  authDomain: 'entrelia-17696.firebaseapp.com',
+  projectId: 'entrelia-17696',
+  storageBucket: 'entrelia-17696.firebasestorage.app',
+  messagingSenderId: '899626488747',
+  appId: '1:899626488747:web:b5991245ea38bddf7038ee',
 };
 
 export const configured = Object.values(config).every(Boolean);
