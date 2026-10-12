@@ -22,6 +22,10 @@ Para executar os testes locais do modelo, use `npm install` e `npm test`. Eles e
 
 O código e as instruções de configuração estão em [`api/README.md`](api/README.md). A primeira entrega inclui perfil profissional, busca pública e upload autenticado com os presets assinados `entrelia_perfil` e `entrelia_portfolio`.
 
+## Aplicativo Web
+
+A primeira interface React/Vite está em [`web/README.md`](web/README.md). Ela usa Firebase Authentication, consulta a API e permite publicar perfil e imagens. O registro do app Web no Firebase, a configuração local e o teste ponta a ponta ainda estão pendentes.
+
 ## Próximas implementações
 
-Aplicativo web e configuração real do Firebase; pedido/aceite; checkout e webhook idempotente; chat e moderação. Preços, prazos e limites comerciais seguem pendentes de decisão.
+Configuração real do Firebase Web e teste ponta a ponta; pedido/aceite; checkout e webhook idempotente; chat e moderação. Preços, prazos e limites comerciais seguem pendentes de decisão.
