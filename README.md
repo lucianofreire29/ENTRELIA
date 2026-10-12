@@ -24,8 +24,8 @@ O código e as instruções de configuração estão em [`api/README.md`](api/RE
 
 ## Aplicativo Web
 
-A primeira interface React/Vite está em [`web/README.md`](web/README.md). Ela usa Firebase Authentication, consulta a API e permite publicar perfil e imagens. O registro do app Web no Firebase, a configuração local e o teste ponta a ponta ainda estão pendentes.
+A primeira interface React/Vite está em [`web/README.md`](web/README.md). Ela usa Firebase Authentication, consulta a API e permite publicar perfil e imagens. O app Web já está registrado no Firebase e a configuração pública consta no frontend. O teste ponta a ponta ainda depende da API configurada.
 
 ## Próximas implementações
 
-Configuração real do Firebase Web e teste ponta a ponta; pedido/aceite; checkout e webhook idempotente; chat e moderação. Preços, prazos e limites comerciais seguem pendentes de decisão.
+Teste ponta a ponta de Firebase, API e imagens; pedido/aceite; checkout e webhook idempotente; chat e moderação. Preços, prazos e limites comerciais seguem pendentes de decisão.
